@@ -1,3 +1,2 @@
 #!/bin/bashi
 find . -type d -exec chmod +x {} + .
-
