@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec +x {} /:
+find . -type d -exec u+x g+x o+x {} /:
