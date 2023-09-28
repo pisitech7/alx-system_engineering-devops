@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al pwd "$OLDPWD" /boot 
+ls -al . ../boot 
