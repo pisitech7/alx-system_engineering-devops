@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname '*.gif' -exec sh -c 'echo "${0%.*}"' {} \; | sort -f | awk 'NF{print}' && echo
+find . -type f -iname '*.gif' -exec basename {} \; | sed 's/\..*//' | sort -f | sed '/^$/d'
