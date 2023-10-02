@@ -1,2 +1,2 @@
 #!/bin/bash
-tr "A" "Z"|tr "C" "e"
+echo "A quick brown cat" | tr 'Ac' 'Ze'
