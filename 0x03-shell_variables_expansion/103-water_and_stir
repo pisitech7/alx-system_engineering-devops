@@ -1,2 +1,0 @@
-#!/bin/bash
-result=$(( $(echo "$((16#"$WATER"))") + $(echo "$((16#"$STIR"))") ))
