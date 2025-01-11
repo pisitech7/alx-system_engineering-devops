@@ -1,3 +1,5 @@
+# This Puppet manifest creates a file at /tmp/school with specific content, permissions, owner, and group.
+
 file { '/tmp/school':
   ensure  => file,
   content => 'I love Puppet',
@@ -5,3 +7,4 @@ file { '/tmp/school':
   owner   => 'www-data',
   group   => 'www-data',
 }
+
